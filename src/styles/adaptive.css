@@ -1,0 +1,210 @@
+@media screen and (max-width: 1336px) {
+    .main {
+        padding: 0 68px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .puppies-secondary-heading {
+        padding: 0 15px;
+    }
+}
+
+@media screen and (max-width: 999px) {
+    .main-logo {
+        width: 120px;
+        height: 120px;
+        margin-top: -65px;
+    }
+}
+
+@media screen and (max-width: 965px) {
+    .advantages {
+        padding: 0 15px;
+    }
+
+    #lightbox {
+        transform: translate(-50%, -50%);
+    }
+}
+
+@media screen and (max-width: 951px) {
+    .gallery-item {
+        width: 300px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 724px) {
+    .advantages-image {
+        max-width: 600px;
+    }
+
+    .advantages-items {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 659px) {
+    .gallery-items {
+        flex-direction: column;
+    }
+
+    #lightbox {
+        width: 80vw;
+        transform: translate(-12%, -50%);
+    }
+
+    .footer-logo {
+        width: 80px;
+        height: 80px;
+    }
+
+    .footer-link {
+        padding: 6px 2px;
+        width: 170px;
+    }
+}
+
+@media screen and (max-width: 649px) {
+    .about {
+        padding: 0 15px;
+    }
+}
+
+@media screen and (max-width: 574px) {
+    .footer {
+        gap: 30px;
+    }
+
+    .main-logo {
+        width: 90px;
+        height: 90px;
+        margin-top: -50px;
+    }
+
+    .main, .about, .gallery, .puppies, .advantages {
+        margin: 0 auto 50px auto;
+    }
+
+    .gallery-button {
+        font-size: 22px;
+    }
+
+    .gallery-button svg {
+        width: 50px;
+        height: 50px;
+    }
+
+    .advantages-image {
+        max-width: 320px;
+    }
+
+    .faq {
+        padding: 0 15px;
+    }
+}
+
+@media screen and (max-width: 519px) {
+    .footer-logo {
+        width: 70px;
+        height: 70px;
+    }
+
+    .footer-link {
+        font-size: 15px;
+        gap: 10px;
+        width: 135px;
+    }
+
+    .footer-action svg {
+        width: 20px;
+        height: 20px;
+    }
+
+    .advantages-items {
+        transform: translateX(0);
+    }
+}
+
+@media screen and (max-width: 509px) {
+    .about-advantage span {
+        font-size: 18px;
+    }
+
+    .main-link svg {
+        width: 25px;
+        height: 25px;
+    }
+}
+
+@media screen and (max-width: 429px) {
+    .footer {
+        gap: 15px;
+    }
+
+    .gallery-items {
+        flex-direction: unset;
+    }
+
+    .gallery-item {
+        width: 150px;
+        height: 100px;
+    }
+}
+
+@media screen and (max-width: 424px) {
+    .main-heading, .about-heading, .gallery-heading, .puppies-heading, .advantages-heading, .faq-heading {
+        font-size: 24px;
+    }
+    .main-text, .about-advantage span, .advantages-item span, .faq-accordion-button {
+        font-size: 16px;
+    }
+    .about-secondary-heading, .puppies-secondary-heading, .advantages-secondary-heading, .faq-accordion-text {
+        font-size: 15px;
+    }
+    .menu-item a {
+        font-size: 19px;
+    }
+    .menu-heading {
+        font-size: 20px;
+        margin-bottom: 25px;
+    }
+    .menu-logo {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+@media screen and (max-width: 389px) {
+    .main-logo {
+        width: 80px;
+        height: 80px;
+    }
+
+    .footer-logo {
+        width: 60px;
+        height: 60px;
+    }
+
+    .header-logo {
+        width: 70px;
+        height: 70px;
+    }
+
+    .footer {
+        gap: 40px;
+    }
+
+    .footer-link {
+        font-size: 0;
+        width: 70px;
+        gap: 0;
+    }
+}
+
+@media screen and (max-width: 359px) {
+    .gallery-items {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Alona Mini Bulls</title>
+    <link rel="icon" href="src/static/images/window-icon.png?v3" type="image/png">
+    <link rel="stylesheet" href="/AlonaMiniBulls/src/styles/index.css">
+    <link rel="stylesheet" href="/AlonaMiniBulls/src/styles/adaptive.css">
+</head>
+<body>
+
+<dialog id="lightbox">
+    <img src="" id="lightbox-img" alt="">
+</dialog>
+
+<div class="popup-menu-overlay" id="popup-overlay"></div>
+<div class="popup-menu" id="popup-menu">
+    <div class="menu-action">
+        <a href="#" class="menu-close-button" id="menu-close-button">
+            <svg fill="#ffffff" width="800px" height="800px" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+                <g id="SVGRepo_bgCarrier" stroke-width="0"/>
+                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
+                <g id="SVGRepo_iconCarrier">
+                    <path d="M512.481 421.906L850.682 84.621c25.023-24.964 65.545-24.917 90.51.105s24.917 65.545-.105 90.51L603.03 512.377 940.94 850c25.003 24.984 25.017 65.507.033 90.51s-65.507 25.017-90.51.033L512.397 602.764 174.215 940.03c-25.023 24.964-65.545 24.917-90.51-.105s-24.917-65.545.105-90.51l338.038-337.122L84.14 174.872c-25.003-24.984-25.017-65.507-.033-90.51s65.507-25.017 90.51-.033L512.48 421.906z"/>
+                </g>
+            </svg>
+        </a>
+    </div>
+    <div class="menu-logo" id="menu-logo">
+        <img src="src/static/images/logo.png" alt="Logo">
+    </div>
+    <div class="menu-heading">Alona Mini Bulls</div>
+    <ul class="menu-items">
+        <li class="menu-item">
+            <a href="#" id="main-link">עמוד ראשי</a>
+        </li>
+        <li class="menu-item">
+            <a href="#" id="about-link">קצת על הבית גידול שלנו</a>
+        </li>
+        <li class="menu-item">
+            <a href="#" id="gallery-link">הכלבים שלנו</a>
+        </li>
+        <li class="menu-item">
+            <a href="#" id="puppies-link">גורים זמינים</a>
+        </li>
+        <li class="menu-item">
+            <a href="#" id="advantages-link">למה אנחנו</a>
+        </li>
+        <li class="menu-item">
+            <a href="#" id="faq-link">שאלות נפוצות</a>
+        </li>
+    </ul>
+</div>
+
+<header class="header" id="header" dir="ltr">
+    <div class="header-language-select">
+        <select class="language-select" name="language" id="language-select">
+            <option value="he">עברית</option>
+            <option value="en">English</option>
+            <option value="ru">Русский</option>
+        </select>
+    </div>
+    <div class="header-logo" id="header-logo">
+        <img src="src/static/images/logo.png" alt="Logo">
+    </div>
+    <div class="header-menu">
+        <a href="#" id="header-menu-button">
+            <svg width="42px" height="42px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M4 18L20 18" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/>
+                <path d="M4 12L20 12" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/>
+                <path d="M4 6L20 6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+        </a>
+    </div>
+</header>
+
+<section class="main" id="main">
+    <div class="main-image">
+        <img src="src/static/images/main-image.jpeg" alt="Main Image">
+    </div>
+    <div class="main-logo" id="main-logo">
+        <img src="src/static/images/logo.png" alt="Logo">
+    </div>
+    <h1 class="main-heading">Alona Mini Bulls</h1>
+    <div class="main-text">ברוכים הבאים לבית גידול רשמי של הפדרציה הבין-לאומית לכלבנות (FCI) ושל התאחדות הישראלית
+        לכלבנות (IKC) של גזע בולטרייר ננסי!
+    </div>
+    <div class="main-links">
+        <a href="https://www.facebook.com/share/1EduoxJktS/" class="main-link facebook">
+            <svg width="800px" height="800px" viewBox="-5 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                    <g id="Dribbble-Light-Preview" transform="translate(-385.000000, -7399.000000)" fill="#000000">
+                        <g id="icons" transform="translate(56.000000, 160.000000)">
+                            <path d="M335.821282,7259 L335.821282,7250 L338.553693,7250 L339,7246 L335.821282,7246 L335.821282,7244.052 C335.821282,7243.022 335.847593,7242 337.286884,7242 L338.744689,7242 L338.744689,7239.14 C338.744689,7239.097 337.492497,7239 336.225687,7239 C333.580004,7239 331.923407,7240.657 331.923407,7243.7 L331.923407,7246 L329,7246 L329,7250 L331.923407,7250 L331.923407,7259 L335.821282,7259 Z"
+                                  id="facebook-[#176]"></path>
+                        </g>
+                    </g>
+                </g>
+            </svg>
+        </a>
+        <a href="https://www.instagram.com/aliona.kaufman?igsh=cG02cjhmeTlwb3B6" class="main-link instagram">
+            <svg width="800px" height="800px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M12 18C15.3137 18 18 15.3137 18 12C18 8.68629 15.3137 6 12 6C8.68629 6 6 8.68629 6 12C6 15.3137 8.68629 18 12 18ZM12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16Z"
+                      fill="#0F0F0F"/>
+                <path d="M18 5C17.4477 5 17 5.44772 17 6C17 6.55228 17.4477 7 18 7C18.5523 7 19 6.55228 19 6C19 5.44772 18.5523 5 18 5Z"
+                      fill="#0F0F0F"/>
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M1.65396 4.27606C1 5.55953 1 7.23969 1 10.6V13.4C1 16.7603 1 18.4405 1.65396 19.7239C2.2292 20.8529 3.14708 21.7708 4.27606 22.346C5.55953 23 7.23969 23 10.6 23H13.4C16.7603 23 18.4405 23 19.7239 22.346C20.8529 21.7708 21.7708 20.8529 22.346 19.7239C23 18.4405 23 16.7603 23 13.4V10.6C23 7.23969 23 5.55953 22.346 4.27606C21.7708 3.14708 20.8529 2.2292 19.7239 1.65396C18.4405 1 16.7603 1 13.4 1H10.6C7.23969 1 5.55953 1 4.27606 1.65396C3.14708 2.2292 2.2292 3.14708 1.65396 4.27606ZM13.4 3H10.6C8.88684 3 7.72225 3.00156 6.82208 3.0751C5.94524 3.14674 5.49684 3.27659 5.18404 3.43597C4.43139 3.81947 3.81947 4.43139 3.43597 5.18404C3.27659 5.49684 3.14674 5.94524 3.0751 6.82208C3.00156 7.72225 3 8.88684 3 10.6V13.4C3 15.1132 3.00156 16.2777 3.0751 17.1779C3.14674 18.0548 3.27659 18.5032 3.43597 18.816C3.81947 19.5686 4.43139 20.1805 5.18404 20.564C5.49684 20.7234 5.94524 20.8533 6.82208 20.9249C7.72225 20.9984 8.88684 21 10.6 21H13.4C15.1132 21 16.2777 20.9984 17.1779 20.9249C18.0548 20.8533 18.5032 20.7234 18.816 20.564C19.5686 20.1805 20.1805 19.5686 20.564 18.816C20.7234 18.5032 20.8533 18.0548 20.9249 17.1779C20.9984 16.2777 21 15.1132 21 13.4V10.6C21 8.88684 20.9984 7.72225 20.9249 6.82208C20.8533 5.94524 20.7234 5.49684 20.564 5.18404C20.1805 4.43139 19.5686 3.81947 18.816 3.43597C18.5032 3.27659 18.0548 3.14674 17.1779 3.0751C16.2777 3.00156 15.1132 3 13.4 3Z"
+                      fill="#0F0F0F"/>
+            </svg>
+        </a>
+        <a href="https://www.tiktok.com/@alona_kaufman?_t=ZS-8zS0yruX0oW&_r=1" class="main-link tiktok">
+            <svg fill="#000000" width="800px" height="800px" viewBox="0 0 32 32" version="1.1"
+                 xmlns="http://www.w3.org/2000/svg">
+                <path d="M16.656 1.029c1.637-0.025 3.262-0.012 4.886-0.025 0.054 2.031 0.878 3.859 2.189 5.213l-0.002-0.002c1.411 1.271 3.247 2.095 5.271 2.235l0.028 0.002v5.036c-1.912-0.048-3.71-0.489-5.331-1.247l0.082 0.034c-0.784-0.377-1.447-0.764-2.077-1.196l0.052 0.034c-0.012 3.649 0.012 7.298-0.025 10.934-0.103 1.853-0.719 3.543-1.707 4.954l0.020-0.031c-1.652 2.366-4.328 3.919-7.371 4.011l-0.014 0c-0.123 0.006-0.268 0.009-0.414 0.009-1.73 0-3.347-0.482-4.725-1.319l0.040 0.023c-2.508-1.509-4.238-4.091-4.558-7.094l-0.004-0.041c-0.025-0.625-0.037-1.25-0.012-1.862 0.49-4.779 4.494-8.476 9.361-8.476 0.547 0 1.083 0.047 1.604 0.136l-0.056-0.008c0.025 1.849-0.050 3.699-0.050 5.548-0.423-0.153-0.911-0.242-1.42-0.242-1.868 0-3.457 1.194-4.045 2.861l-0.009 0.030c-0.133 0.427-0.21 0.918-0.21 1.426 0 0.206 0.013 0.41 0.037 0.61l-0.002-0.024c0.332 2.046 2.086 3.59 4.201 3.59 0.061 0 0.121-0.001 0.181-0.004l-0.009 0c1.463-0.044 2.733-0.831 3.451-1.994l0.010-0.018c0.267-0.372 0.45-0.822 0.511-1.311l0.001-0.014c0.125-2.237 0.075-4.461 0.087-6.698 0.012-5.036-0.012-10.060 0.025-15.083z"></path>
+            </svg>
+        </a>
+    </div>
+    <div class="main-secondary-image">
+        <img src="src/static/images/main-secondary-image.png" alt="Bull Terriers">
+    </div>
+</section>
+
+<section class="about" id="about">
+    <h2 class="about-heading">קצת על הבית גידול שלנו</h2>
+    <div class="about-secondary-heading">גידול ביתי למיני בולטריירים בישראל</div>
+    <div class="about-advantages">
+        <div class="about-advantage">
+            <svg fill="#000000" width="800px" height="800px" viewBox="0 0 256 256" id="Flat"
+                 xmlns="http://www.w3.org/2000/svg">
+                <path d="M136,60a28,28,0,1,1,28,28A28.03146,28.03146,0,0,1,136,60ZM72,108a28,28,0,1,0-28,28A28.03146,28.03146,0,0,0,72,108ZM92,88A28,28,0,1,0,64,60,28.03146,28.03146,0,0,0,92,88Zm95.0918,60.84473a35.3317,35.3317,0,0,1-16.8418-21.124,43.99839,43.99839,0,0,0-84.5-.00439,35.2806,35.2806,0,0,1-16.7998,21.105,40.00718,40.00718,0,0,0,34.57226,72.05176,64.08634,64.08634,0,0,1,48.86524-.03711,40.0067,40.0067,0,0,0,34.7041-71.99121ZM212,80a28,28,0,1,0,28,28A28.03146,28.03146,0,0,0,212,80Z"/>
+            </svg>
+            <span>גורים שנולדים בתוך הבית, גדלים בתוך הלב, שושלות איכות, אופי יציב ובריאים.</span>
+        </div>
+        <div class="about-advantage">
+            <svg fill="#000000" width="800px" height="800px" viewBox="0 0 256 256" id="Flat"
+                 xmlns="http://www.w3.org/2000/svg">
+                <path d="M136,60a28,28,0,1,1,28,28A28.03146,28.03146,0,0,1,136,60ZM72,108a28,28,0,1,0-28,28A28.03146,28.03146,0,0,0,72,108ZM92,88A28,28,0,1,0,64,60,28.03146,28.03146,0,0,0,92,88Zm95.0918,60.84473a35.3317,35.3317,0,0,1-16.8418-21.124,43.99839,43.99839,0,0,0-84.5-.00439,35.2806,35.2806,0,0,1-16.7998,21.105,40.00718,40.00718,0,0,0,34.57226,72.05176,64.08634,64.08634,0,0,1,48.86524-.03711,40.0067,40.0067,0,0,0,34.7041-71.99121ZM212,80a28,28,0,1,0,28,28A28.03146,28.03146,0,0,0,212,80Z"/>
+            </svg>
+            <span>ליווי אישי, אהבה אינסופית – ומשפחה לכל החיים.</span>
+        </div>
+        <div class="about-advantage">
+            <svg fill="#000000" width="800px" height="800px" viewBox="0 0 256 256" id="Flat"
+                 xmlns="http://www.w3.org/2000/svg">
+                <path d="M136,60a28,28,0,1,1,28,28A28.03146,28.03146,0,0,1,136,60ZM72,108a28,28,0,1,0-28,28A28.03146,28.03146,0,0,0,72,108ZM92,88A28,28,0,1,0,64,60,28.03146,28.03146,0,0,0,92,88Zm95.0918,60.84473a35.3317,35.3317,0,0,1-16.8418-21.124,43.99839,43.99839,0,0,0-84.5-.00439,35.2806,35.2806,0,0,1-16.7998,21.105,40.00718,40.00718,0,0,0,34.57226,72.05176,64.08634,64.08634,0,0,1,48.86524-.03711,40.0067,40.0067,0,0,0,34.7041-71.99121ZM212,80a28,28,0,1,0,28,28A28.03146,28.03146,0,0,0,212,80Z"/>
+            </svg>
+            <span>הכלבים שלנו מתועדים ועם תארים מרשימים! משתתפים בתערוכות בארץ וגם בחו"ל.</span>
+        </div>
+        <div class="about-advantage">
+            <svg fill="#000000" width="800px" height="800px" viewBox="0 0 256 256" id="Flat"
+                 xmlns="http://www.w3.org/2000/svg">
+                <path d="M136,60a28,28,0,1,1,28,28A28.03146,28.03146,0,0,1,136,60ZM72,108a28,28,0,1,0-28,28A28.03146,28.03146,0,0,0,72,108ZM92,88A28,28,0,1,0,64,60,28.03146,28.03146,0,0,0,92,88Zm95.0918,60.84473a35.3317,35.3317,0,0,1-16.8418-21.124,43.99839,43.99839,0,0,0-84.5-.00439,35.2806,35.2806,0,0,1-16.7998,21.105,40.00718,40.00718,0,0,0,34.57226,72.05176,64.08634,64.08634,0,0,1,48.86524-.03711,40.0067,40.0067,0,0,0,34.7041-71.99121ZM212,80a28,28,0,1,0,28,28A28.03146,28.03146,0,0,0,212,80Z"/>
+            </svg>
+            <span>כל הכלבים עוברים בדיקות גנטיות ועומדים בכל התקנים הנדרשים של וועדת הגידול בהתאחדות הישראלית לכבנות.</span>
+        </div>
+    </div>
+</section>
+
+<section class="gallery" id="gallery">
+    <h2 class="gallery-heading">הכלבים שלנו</h2>
+    <div class="gallery-items">
+        <div class="gallery-item">
+            <img src="src/static/images/gallery/gallery-item-1.jpeg" alt="Gallery Image">
+        </div>
+        <div class="gallery-item">
+            <img src="src/static/images/gallery/gallery-item-2.jpeg" alt="Gallery Image">
+        </div>
+        <div class="gallery-item">
+            <img src="src/static/images/gallery/gallery-item-3.jpeg" alt="Gallery Image">
+        </div>
+        <div class="gallery-item">
+            <img src="src/static/images/gallery/gallery-item-4.jpeg" alt="Gallery Image">
+        </div>
+        <div class="gallery-item">
+            <img src="src/static/images/gallery/gallery-item-5.jpeg" alt="Gallery Image">
+        </div>
+        <div class="gallery-item">
+            <img src="src/static/images/gallery/gallery-item-6.jpeg" alt="Gallery Image">
+        </div>
+    </div>
+    <div class="gallery-action">
+        <button class="gallery-button" type="button">
+            <svg width="800px" height="800px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="16" cy="8" r="2" stroke="#1C274C" stroke-width="1.5"/>
+                <path d="M2 12.5001L3.75159 10.9675C4.66286 10.1702 6.03628 10.2159 6.89249 11.0721L11.1822 15.3618C11.8694 16.0491 12.9512 16.1428 13.7464 15.5839L14.0446 15.3744C15.1888 14.5702 16.7369 14.6634 17.7765 15.599L21 18.5001"
+                      stroke="#1C274C" stroke-width="1.5" stroke-linecap="round"/>
+                <path d="M22 12C22 16.714 22 19.0711 20.5355 20.5355C19.0711 22 16.714 22 12 22C7.28595 22 4.92893 22 3.46447 20.5355C2 19.0711 2 16.714 2 12C2 7.28595 2 4.92893 3.46447 3.46447C4.92893 2 7.28595 2 12 2C16.714 2 19.0711 2 20.5355 3.46447C21.5093 4.43821 21.8356 5.80655 21.9449 8"
+                      stroke="#1C274C" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+            לעבור לגלריה
+        </button>
+    </div>
+</section>
+
+<section class="puppies" id="puppies">
+    <h2 class="puppies-heading">הגורים שלנו</h2>
+    <div class="puppies-secondary-heading">תוכלו ליצור קשר ולברר לגבי גורים זמינים.</div>
+    <div class="puppies-secondary-heading"> באפשרותכם גם ליצור קשר ישירות עם הרכז הגזע של מיניבולים בישראל <a href="tel:0539315150">(איגור)</a> ולברר מולו לגבי המלטות קיימות בארץ וגם על המלטות עתידיות, הוא יכוון אותכם למגדלים מורשים ורלוונטיים. </div>
+    <div class="puppies-items">
+
+    </div>
+</section>
+
+<section class="advantages" id="advantages">
+    <h2 class="advantages-heading">למה אנחנו?</h2>
+    <div class="advantages-secondary-heading">גורים איכותיים מהורים מובחרים</div>
+    <div class="advantages-image">
+        <img src="src/static/images/advantages-image.jpeg" alt="Puppies">
+    </div>
+    <div class="advantages-items">
+        <div class="advantages-item">
+            <svg fill="#000000" width="800px" height="800px" viewBox="0 0 256 256" id="Flat"
+                 xmlns="http://www.w3.org/2000/svg">
+                <path d="M136,60a28,28,0,1,1,28,28A28.03146,28.03146,0,0,1,136,60ZM72,108a28,28,0,1,0-28,28A28.03146,28.03146,0,0,0,72,108ZM92,88A28,28,0,1,0,64,60,28.03146,28.03146,0,0,0,92,88Zm95.0918,60.84473a35.3317,35.3317,0,0,1-16.8418-21.124,43.99839,43.99839,0,0,0-84.5-.00439,35.2806,35.2806,0,0,1-16.7998,21.105,40.00718,40.00718,0,0,0,34.57226,72.05176,64.08634,64.08634,0,0,1,48.86524-.03711,40.0067,40.0067,0,0,0,34.7041-71.99121ZM212,80a28,28,0,1,0,28,28A28.03146,28.03146,0,0,0,212,80Z"/>
+            </svg>
+            <span>בעלי תעודת יוחסין</span>
+        </div>
+        <div class="advantages-item">
+            <svg fill="#000000" width="800px" height="800px" viewBox="0 0 256 256" id="Flat"
+                 xmlns="http://www.w3.org/2000/svg">
+                <path d="M136,60a28,28,0,1,1,28,28A28.03146,28.03146,0,0,1,136,60ZM72,108a28,28,0,1,0-28,28A28.03146,28.03146,0,0,0,72,108ZM92,88A28,28,0,1,0,64,60,28.03146,28.03146,0,0,0,92,88Zm95.0918,60.84473a35.3317,35.3317,0,0,1-16.8418-21.124,43.99839,43.99839,0,0,0-84.5-.00439,35.2806,35.2806,0,0,1-16.7998,21.105,40.00718,40.00718,0,0,0,34.57226,72.05176,64.08634,64.08634,0,0,1,48.86524-.03711,40.0067,40.0067,0,0,0,34.7041-71.99121ZM212,80a28,28,0,1,0,28,28A28.03146,28.03146,0,0,0,212,80Z"/>
+            </svg>
+            <span>משובבים</span>
+        </div>
+        <div class="advantages-item">
+            <svg fill="#000000" width="800px" height="800px" viewBox="0 0 256 256" id="Flat"
+                 xmlns="http://www.w3.org/2000/svg">
+                <path d="M136,60a28,28,0,1,1,28,28A28.03146,28.03146,0,0,1,136,60ZM72,108a28,28,0,1,0-28,28A28.03146,28.03146,0,0,0,72,108ZM92,88A28,28,0,1,0,64,60,28.03146,28.03146,0,0,0,92,88Zm95.0918,60.84473a35.3317,35.3317,0,0,1-16.8418-21.124,43.99839,43.99839,0,0,0-84.5-.00439,35.2806,35.2806,0,0,1-16.7998,21.105,40.00718,40.00718,0,0,0,34.57226,72.05176,64.08634,64.08634,0,0,1,48.86524-.03711,40.0067,40.0067,0,0,0,34.7041-71.99121ZM212,80a28,28,0,1,0,28,28A28.03146,28.03146,0,0,0,212,80Z"/>
+            </svg>
+            <span>מחוסנים לפי הגיל כולל פנקס מסודר</span>
+        </div>
+        <div class="advantages-item">
+            <svg fill="#000000" width="800px" height="800px" viewBox="0 0 256 256" id="Flat"
+                 xmlns="http://www.w3.org/2000/svg">
+                <path d="M136,60a28,28,0,1,1,28,28A28.03146,28.03146,0,0,1,136,60ZM72,108a28,28,0,1,0-28,28A28.03146,28.03146,0,0,0,72,108ZM92,88A28,28,0,1,0,64,60,28.03146,28.03146,0,0,0,92,88Zm95.0918,60.84473a35.3317,35.3317,0,0,1-16.8418-21.124,43.99839,43.99839,0,0,0-84.5-.00439,35.2806,35.2806,0,0,1-16.7998,21.105,40.00718,40.00718,0,0,0,34.57226,72.05176,64.08634,64.08634,0,0,1,48.86524-.03711,40.0067,40.0067,0,0,0,34.7041-71.99121ZM212,80a28,28,0,1,0,28,28A28.03146,28.03146,0,0,0,212,80Z"/>
+            </svg>
+            <span>חינוך מגיל מוקדם</span>
+        </div>
+        <div class="advantages-item">
+            <svg fill="#000000" width="800px" height="800px" viewBox="0 0 256 256" id="Flat"
+                 xmlns="http://www.w3.org/2000/svg">
+                <path d="M136,60a28,28,0,1,1,28,28A28.03146,28.03146,0,0,1,136,60ZM72,108a28,28,0,1,0-28,28A28.03146,28.03146,0,0,0,72,108ZM92,88A28,28,0,1,0,64,60,28.03146,28.03146,0,0,0,92,88Zm95.0918,60.84473a35.3317,35.3317,0,0,1-16.8418-21.124,43.99839,43.99839,0,0,0-84.5-.00439,35.2806,35.2806,0,0,1-16.7998,21.105,40.00718,40.00718,0,0,0,34.57226,72.05176,64.08634,64.08634,0,0,1,48.86524-.03711,40.0067,40.0067,0,0,0,34.7041-71.99121ZM212,80a28,28,0,1,0,28,28A28.03146,28.03146,0,0,0,212,80Z"/>
+            </svg>
+            <span>ליווי ותמיכה תמידית</span>
+        </div>
+        <div class="advantages-item">
+            <svg fill="#000000" width="800px" height="800px" viewBox="0 0 256 256" id="Flat"
+                 xmlns="http://www.w3.org/2000/svg">
+                <path d="M136,60a28,28,0,1,1,28,28A28.03146,28.03146,0,0,1,136,60ZM72,108a28,28,0,1,0-28,28A28.03146,28.03146,0,0,0,72,108ZM92,88A28,28,0,1,0,64,60,28.03146,28.03146,0,0,0,92,88Zm95.0918,60.84473a35.3317,35.3317,0,0,1-16.8418-21.124,43.99839,43.99839,0,0,0-84.5-.00439,35.2806,35.2806,0,0,1-16.7998,21.105,40.00718,40.00718,0,0,0,34.57226,72.05176,64.08634,64.08634,0,0,1,48.86524-.03711,40.0067,40.0067,0,0,0,34.7041-71.99121ZM212,80a28,28,0,1,0,28,28A28.03146,28.03146,0,0,0,212,80Z"/>
+            </svg>
+            <span>המלטות מתועדות ומפוקחות</span>
+        </div>
+    </div>
+</section>
+
+<section class="faq" id="faq">
+    <div class="container">
+        <h2 class="faq-heading">שאלות נפוצות</h2>
+        <div class="faq-accordion">
+            <button class="faq-accordion-button">
+                האם בולטרייר ננסי הוא גזע חוקי בארץ?
+                <span class="faq-accordion-icon">&plus;</span>
+            </button>
+            <div class="faq-accordion-text">גזע בולטרייר ננסי נחשב חוקי בארץ אך ורק עם תעודת יוחסין של התאחדות הישראלית
+                לכלבנות.
+            </div>
+            <button class="faq-accordion-button">
+                האם הגזע מתאים לגידול בדירה?
+                <span class="faq-accordion-icon">&plus;</span>
+            </button>
+            <div class="faq-accordion-text">כן, בולטרייר ננסי יכול לגור בדירה, אבל צריך להשקיע באנרגיה, זמן ואילוף. אם
+                אתם שמחפשים כלב שובב, חכם ומצחיק – בולטרייר ננסי הינה בחירה מושלמת.
+            </div>
+            <button class="faq-accordion-button">
+                האם הגזע אנרגטי?
+                <span class="faq-accordion-icon">&plus;</span>
+            </button>
+            <div class="faq-accordion-text">
+                <p>כן, בולטרייר ננסי הוא גזע מאוד אנרגטי.</p>
+                <p> חשוב לדעת שבולטריירים הינם כלבים עם רמת פעילות גבוהה מאוד. הינם כלבים שובבים, נמרצים, וזקוקים
+                    לפעילות גופנית ומנטלית יומיומית.</p>
+            </div>
+            <button class="faq-accordion-button">
+                האם מסתדרים עם ילדים?
+                <span class="faq-accordion-icon">&plus;</span>
+            </button>
+            <div class="faq-accordion-text">בולטריירים משתלבים נהדר במשפחה אנרגטית ודורשים חינוך וגבולות ברורים מגיל
+                צעיר.
+            </div>
+            <button class="faq-accordion-button">
+                כמה פעילות הם צריכים?
+                <span class="faq-accordion-icon">&plus;</span>
+            </button>
+            <div class="faq-accordion-text">
+                <p>בולטריירים דורשים לפחות שעה ביום של פעילות גופנית כולל טיולים, ריצות ומשחקים.</p>
+                <p>אידיאלי לחלק את הפעילות הגופנית ל-2–3 פעמים ביום.</p>
+            </div>
+            <button class="faq-accordion-button">
+                איזה אופי יש להם?
+                <span class="faq-accordion-icon">&plus;</span>
+            </button>
+            <div class="faq-accordion-text">
+                <p><span>חכם וערני</span> – לומד מהר, תמיד קולט את הסביבה ומפתיע בהבנה חדה.</p>
+                <p><span>שובב עם חוש הומור</span> – ההתנהגות שלהם יכולה להעלות חיוך בכל יום מחדש.</p>
+                <p><span>נאמן מאוד לבני המשפחה</span> – חבר אמיתי עם לב גדול, שנקשר בכל נפשו לבית ולמשפחה.</p>
+                <p><span>דורש חינוך עקבי</span> – העקשנות היא חלק מהקסם, וכשמחנכים נכון – זה הופך ליתרון.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="footer-action">
+        <a href="tel:0503068472" class="footer-link">
+            <svg height="200px" width="200px" version="1.1" id="_x32_" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" xml:space="preserve" fill="#ffffff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                <g id="SVGRepo_iconCarrier"> <style type="text/css"> .st0 {fill: #ffffff;} </style><g> <path class="st0" d="M94.811,21.696c-35.18,22.816-42.091,94.135-28.809,152.262c10.344,45.266,32.336,105.987,69.42,163.165 c34.886,53.79,83.557,102.022,120.669,129.928c47.657,35.832,115.594,58.608,150.774,35.792 c17.789-11.537,44.218-43.058,45.424-48.714c0,0-15.498-23.896-18.899-29.14l-51.972-80.135 c-3.862-5.955-28.082-0.512-40.386,6.457c-16.597,9.404-31.882,34.636-31.882,34.636c-11.38,6.575-20.912,0.024-40.828-9.142 c-24.477-11.262-51.997-46.254-73.9-77.947c-20.005-32.923-40.732-72.322-41.032-99.264c-0.247-21.922-2.341-33.296,8.304-41.006 c0,0,29.272-3.666,44.627-14.984c11.381-8.392,26.228-28.286,22.366-34.242l-51.972-80.134c-3.401-5.244-18.899-29.14-18.899-29.14 C152.159-1.117,112.6,10.159,94.811,21.696z"></path> </g> </g>
+            </svg>
+            צרו קשר עכשיו
+        </a>
+    </div>
+    <div class="footer-logo">
+        <img src="src/static/images/fci-logo.png" alt="FCI Logo">
+    </div>
+    <div class="footer-action">
+        <a href="https://wa.me/9720503068472" class="footer-link">
+            <svg width="800px" height="800px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M6.014 8.00613C6.12827 7.1024 7.30277 5.87414 8.23488 6.01043L8.23339 6.00894C9.14051 6.18132 9.85859 7.74261 10.2635 8.44465C10.5504 8.95402 10.3641 9.4701 10.0965 9.68787C9.7355 9.97883 9.17099 10.3803 9.28943 10.7834C9.5 11.5 12 14 13.2296 14.7107C13.695 14.9797 14.0325 14.2702 14.3207 13.9067C14.5301 13.6271 15.0466 13.46 15.5548 13.736C16.3138 14.178 17.0288 14.6917 17.69 15.27C18.0202 15.546 18.0977 15.9539 17.8689 16.385C17.4659 17.1443 16.3003 18.1456 15.4542 17.9421C13.9764 17.5868 8 15.27 6.08033 8.55801C5.97237 8.24048 5.99955 8.12044 6.014 8.00613Z"
+                      fill="#0F0F0F"/>
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M12 23C10.7764 23 10.0994 22.8687 9 22.5L6.89443 23.5528C5.56462 24.2177 4 23.2507 4 21.7639V19.5C1.84655 17.492 1 15.1767 1 12C1 5.92487 5.92487 1 12 1C18.0751 1 23 5.92487 23 12C23 18.0751 18.0751 23 12 23ZM6 18.6303L5.36395 18.0372C3.69087 16.4772 3 14.7331 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12C21 16.9706 16.9706 21 12 21C11.0143 21 10.552 20.911 9.63595 20.6038L8.84847 20.3397L6 21.7639V18.6303Z"
+                      fill="#0F0F0F"/>
+            </svg>
+            שליחת הודעה
+        </a>
+    </div>
+</footer>
+
+<div class="background-circles">
+    <div class="background-circle big"></div>
+    <div class="background-circle medium"></div>
+    <div class="background-circle small"></div>
+</div>
+
+<script src="src/scripts/index.js"></script>
+</body>
+</html>
