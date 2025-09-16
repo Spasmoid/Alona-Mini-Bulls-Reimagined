@@ -29,7 +29,7 @@
 }
 
 @media screen and (max-width: 951px) {
-    .gallery-item {
+    .gallery-item, .puppies-item {
         width: 300px;
         height: 200px;
     }
@@ -46,7 +46,7 @@
 }
 
 @media screen and (max-width: 659px) {
-    .gallery-items {
+    .gallery-items, .puppies-items {
         flex-direction: column;
     }
 
@@ -143,11 +143,11 @@
         gap: 15px;
     }
 
-    .gallery-items {
+    .gallery-items, .puppies-items {
         flex-direction: unset;
     }
 
-    .gallery-item {
+    .gallery-item, .puppies-item {
         width: 150px;
         height: 100px;
     }
@@ -204,7 +204,7 @@
 }
 
 @media screen and (max-width: 359px) {
-    .gallery-items {
+    .gallery-items, .puppies-items {
         flex-direction: column;
     }
 }
