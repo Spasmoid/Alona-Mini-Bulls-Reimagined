@@ -49,7 +49,8 @@
         const footerLinksText = document.querySelectorAll('.footer-link span');
 
         let locales;
-        const localesReady = fetch('/src/locales/locales.json').then(r => r.json()).then(d => (locales = d));
+        const localesUrl = new URL('./src/locales/locales.json', location.href);
+        const localesReady = fetch(localesUrl).then(r => r.json()).then(d => (locales = d)).catch(err => console.error(err));
 
         localesReady.then(() => {
             const languageSelect = document.getElementById('language-select');
