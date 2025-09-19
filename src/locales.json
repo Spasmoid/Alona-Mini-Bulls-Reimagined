@@ -1,0 +1,205 @@
+{
+  "he": {
+    "main": {
+      "menu": [
+        "עמוד ראשי",
+        "קצת על הבית גידול שלנו",
+        "הכלבים שלנו",
+        "גורים זמינים",
+        "למה Alona Mini Bulls",
+        "שאלות נפוצות"
+      ],
+      "text": "ברוכים הבאים לבית גידול רשמי של הפדרציה הבין-לאומית לכלבנות (FCI) ושל התאחדות הישראלית לכלבנות (IKC) של גזע בולטרייר ננסי!"
+    },
+    "about": {
+      "heading": "קצת על הבית גידול שלנו - Bombullynes Kennel (FCI)",
+      "secondary_heading": "גידול ביתי למיני בולטריירים בישראל",
+      "advantages": [
+        "גורים שנולדים בתוך הבית, גדלים בתוך הלב, שושלות איכות, אופי יציב ובריאים.",
+        "ליווי אישי, אהבה אינסופית – ומשפחה לכל החיים.",
+        "הכלבים שלנו מתועדים ועם תארים מרשימים! משתתפים בתערוכות בארץ וגם בחו\"ל.",
+        "כל הכלבים עוברים בדיקות גנטיות ועומדים בכל התקנים הנדרשים של וועדת הגידול בהתאחדות הישראלית לכבנות."
+      ]
+    },
+    "gallery": {
+      "heading": "הכלבים שלנו",
+      "button": "לעבור לגלריה"
+    },
+    "puppies": {
+      "heading": "הגורים שלנו",
+      "secondary_heading": "תוכלו ליצור קשר ולברר לגבי גורים זמינים.",
+      "secondary_heading_html": "<div class=\"puppies-secondary-heading\"> באפשרותכם גם ליצור קשר ישירות עם הרכז הגזע של מיניבולים בישראל <a href=\"tel:0539315150\">(איגור)</a> ולברר מולו לגבי המלטות קיימות בארץ וגם על המלטות עתידיות, הוא יכוון אותכם למגדלים מורשים ורלוונטיים. </div>"
+    },
+    "advantages": {
+      "heading": "למה Alona Mini Bulls?",
+      "secondary_heading": "גורים איכותיים מהורים מובחרים",
+      "items": [
+        "בעלי תעודת יוחסין",
+        "משובבים",
+        "מחוסנים לפי הגיל כולל פנקס מסודר",
+        "חינוך מגיל מוקדם",
+        "ליווי ותמיכה תמידית",
+        "המלטות מתועדות ומפוקחות"
+      ]
+    },
+    "faq": {
+      "heading": "שאלות נפוצות",
+      "buttons": [
+        "האם בולטרייר ננסי הוא גזע חוקי בארץ?",
+        "האם הגזע מתאים לגידול בדירה?",
+        "האם הגזע אנרגטי?",
+        "האם מסתדרים עם ילדים?",
+        "כמה פעילות הם צריכים?",
+        "איזה אופי יש להם?"
+      ],
+      "answers": [
+        "גזע בולטרייר ננסי נחשב חוקי בארץ אך ורק עם תעודת יוחסין של התאחדות הישראלית לכלבנות.",
+        "כן, בולטרייר ננסי יכול לגור בדירה, אבל צריך להשקיע באנרגיה, זמן ואילוף. אם אתם שמחפשים כלב שובב, חכם ומצחיק – בולטרייר ננסי הינה בחירה מושלמת.",
+        "כן, בולטרייר ננסי הוא גזע מאוד אנרגטי. חשוב לדעת שבולטריירים הינם כלבים עם רמת פעילות גבוהה מאוד. הינם כלבים שובבים, נמרצים, וזקוקים לפעילות גופנית ומנטלית יומיומית.",
+        "בולטריירים משתלבים נהדר במשפחה אנרגטית ודורשים חינוך וגבולות ברורים מגיל צעיר.",
+        "בולטריירים דורשים לפחות שעה ביום של פעילות גופנית כולל טיולים, ריצות ומשחקים. אידיאלי לחלק את הפעילות הגופנית ל-2–3 פעמים ביום."
+      ],
+      "answer_html": "<p><span>חכם וערני</span> – לומד מהר, תמיד קולט את הסביבה ומפתיע בהבנה חדה.</p>\n<p><span>שובב עם חוש הומור</span> – ההתנהגות שלהם יכולה להעלות חיוך בכל יום מחדש.</p>\n<p><span>נאמן מאוד לבני המשפחה</span> – חבר אמיתי עם לב גדול, שנקשר בכל נפשו לבית ולמשפחה.</p>\n<p><span>דורש חינוך עקבי</span> – העקשנות היא חלק מהקסם, וכשמחנכים נכון – זה הופך ליתרון.</p>"
+    },
+    "footer": [
+      "צרו קשר עכשיו",
+      "שליחת הודעה"
+    ]
+  },
+
+  "en": {
+    "main": {
+      "menu": [
+        "Main",
+        "About our kennel",
+        "Our dogs",
+        "Available puppies",
+        "Why Alona Mini Bulls?",
+        "Faq"
+      ],
+      "text": "Welcome to the official kennel of the International Cynological Federation (FCI) and the Israeli Kennel Club (IKC) of the Nancy Bull Terrier breed!"
+    },
+    "about": {
+      "heading": "About our kennel - Bombullynes Kennel (FCI)",
+      "secondary_heading": "Home breeding of miniature bull terriers in Israel",
+      "advantages": [
+        "Puppies that are born indoors, raised in the heart, have quality lineages, stable personalities, and are healthy.",
+        "Personal guidance, endless love – and a family for life.",
+        "Our dogs are documented and have impressive titles! They participate in exhibitions in Israel and abroad.",
+        "All dogs undergo genetic testing and meet all the required standards of the Breeding Committee of the Israeli Kennel Club."
+      ]
+    },
+    "gallery": {
+      "heading": "Our dogs",
+      "button": "Show gallery"
+    },
+    "puppies": {
+      "heading": "Our puppies",
+      "secondary_heading": "You can contact us and receive information about available puppies.",
+      "secondary_heading_html": "<div class=\"puppies-secondary-heading\">You can also contact the breed coordinator for Minibulls in Israel <a href=\"tel:0539315150\">(Igor)</a> directly and inquire about existing kennels in Israel and future litters. He will direct you to licensed and relevant breeders.</div>"
+    },
+    "advantages": {
+      "heading": "Why Alona Mini Bulls?",
+      "secondary_heading": "Quality puppies from selected parents",
+      "items": [
+        "Own a pedigree certificate",
+        "Playful",
+        "Vaccinated according to age, including a neat register",
+        "Educated from an early age",
+        "Constant guidance and support",
+        "Kennels are documented and monitored"
+      ]
+    },
+    "faq": {
+      "heading": "Faq",
+      "buttons": [
+        "Is the Nancy Bull Terrier a legal breed in Israel?",
+        "Is the breed suitable for growing up in an apartment?",
+        "Is the breed energetic?",
+        "Do they get along with children?",
+        "How much activity do they need?",
+        "What kind of character do they have?"
+      ],
+      "answers": [
+        "The Nancy Bull Terrier breed is considered legal in Israel only with a pedigree certificate from the Israeli Kennel Club.",
+        "Yes, the Nancy Bull Terrier can live in an apartment, but you need to invest energy and time on training. If you are looking for a playful, smart, and funny dog – the Nancy Bull Terrier is a perfect choice.",
+        "Yes, the Nancy Bull Terrier is a very energetic breed. It is important to know that Bull Terriers are dogs with a very high activity level. They are playful, energetic dogs, and need daily physical and mental exercise.",
+        "Bull Terriers fit in great with an energetic family and require education and clear boundaries from a young age.",
+        "Bull Terriers require at least an hour of exercise per day, including walks, runs, and games. It is ideal to divide the exercise into 2–3 times per day."
+      ],
+      "answer_html": "<p><span>Smart and alert</span> – Learns quickly, always absorbs the environment and surprises with a sharp understanding.</p>\n<p><span>Playful with a sense of humor</span> – Their behavior can bring a smile to your face every day.</p>\n<p><span>\nVery loyal to family members</span> – A true friend with a big heart, who is wholeheartedly devoted to home and family.</p>\n<p><span>Requires consistent education</span> – Stubbornness is part of the charm, and when educated correctly, it becomes an advantage.</p>"
+    },
+    "footer": [
+      "Contact us",
+      "Text us"
+    ]
+  },
+
+  "ru": {
+    "main": {
+      "menu": [
+        "Главная",
+        "О нашем питомнике",
+        "Наши собаки",
+        "Доступные щенки",
+        "Почему Alona Mini Bulls?",
+        "Вопросы и ответы"
+      ],
+      "text": "Добро пожаловать в официальный питомник Международной кинологической федерации (FCI) и Израильского клуба собаководства (IKC) породы Нэнси бультерьер!"
+    },
+    "about": {
+      "heading": "О нашем питомнике - Bombullynes Kennel (FCI)",
+      "secondary_heading": "Домашнее разведение миниатюрных бультерьеров в Израиле",
+      "advantages": [
+        "Щенки, рожденные в домашних условиях и выращенные в лучших традициях, имеют качественную родословную, стабильный характер и отличаются здоровьем.",
+        "Индивидуальное руководство, бесконечная любовь и семья на всю жизнь.",
+        "Наши собаки имеют документы и внушительные титулы! Они участвуют на выставках в Израиле и за рубежом.",
+        "Все собаки проходят генетическое тестирование и соответствуют всем требуемым стандартам Племенного комитета Израильского клуба собаководства."
+      ]
+    },
+    "gallery": {
+      "heading": "Наши собаки",
+      "button": "Показать галерею"
+    },
+    "puppies": {
+      "heading": "Наши щенки",
+      "secondary_heading": "Вы можете связаться с нами и получить информацию о доступных щенках.",
+      "secondary_heading_html": "<div class=\"puppies-secondary-heading\">Вы также можете связаться с координатором породы мини булльтеррьер в Израиле <a href=\"tel:0539315150\">(Игорем)</a> напрямую и узнать о существующих и будущих питомниках. Он направит вас к лицензированным и подходящим заводчикам.</div>"
+    },
+    "advantages": {
+      "heading": "Почему Alona Mini Bulls?",
+      "secondary_heading": "Качественные щенки от отборных родителей",
+      "items": [
+        "Имеют сертификат о родословной",
+        "Игривые",
+        "Вакцинированы по возрасту и имеют журнал прививок",
+        "Воспитываются с раннего возраста",
+        "Постоянное руководство и поддержка",
+        "Документированные питомники"
+      ]
+    },
+    "faq": {
+      "heading": "Вопросы и ответы",
+      "buttons": [
+        "Порода бультерьер Нэнси легальна в Израиле?",
+        "Подходит ли порода для содержания в квартире?",
+        "Энергична ли порода?",
+        "Ладят ли бультерьеры с детьми?",
+        "Сколько активности им нужно?",
+        "Какой у них характер?"
+      ],
+      "answers": [
+        "Порода бультерьер Нэнси считается законной в Израиле только при наличии сертификата о родословной от Израильского клуба собаководства.",
+        "Да, Нэнси-бультерьер может жить в квартире, но для этого потребуется потратить силы, время на дрессировку. Если вы ищете игривую, умную и весёлую собаку, Нэнси-бультерьер — идеальный выбор.",
+        "Да, Нэнси-бультерьер — очень энергичная порода. Важно знать, что бультерьеры — собаки с очень высоким уровнем активности. Это игривые, энергичные собаки, которым необходимы ежедневные физические и умственные нагрузки.",
+        "Бультерьеры прекрасно вписываются в энергичную семью и требуют обучения и четких границ с раннего возраста.",
+        "Бультерьерам требуется не менее часа физических упражнений в день, включая прогулки, пробежки и игры. В идеале следует разделить активность на 2–3 раза в день."
+      ],
+      "answer_html": "<p><span>Умные и бдительные</span> – Быстро учатся, хорошо ориентируются в окружающей среде и удивляют острым пониманием.</p>\n<p><span>Игривые, с чувством юмора.</span> – Их поведение будет ежедневно вызывать улыбку на вашем лице.</p>\n<p><span>Крайне преданы членам семьи</span> – Настоящие друзья с большим сердцем, всецело преданные дому и семье.</p>\n<p><span>Требуют последовательного воспитание</span> – Упрямство — часть обаяния, а при правильном воспитании становится преимуществом.</p>"
+    },
+    "footer": [
+      "Позвоните",
+      "Напишите"
+    ]
+  }
+}

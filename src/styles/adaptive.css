@@ -50,9 +50,12 @@
         flex-direction: column;
     }
 
+    html[dir="rtl"] #lightbox {
+        transform: translate(-12%, -50%);
+    }
+
     #lightbox {
         width: 80vw;
-        transform: translate(-12%, -50%);
     }
 
     .footer-logo {
@@ -69,6 +72,16 @@
 @media screen and (max-width: 649px) {
     .about {
         padding: 0 15px;
+    }
+}
+
+@media screen and (max-width: 577px) {
+    html[dir="ltr"] .faq-accordion-button-text {
+        font-size: 15px;
+    }
+
+    html[dir="ltr"] .faq-accordion-text {
+        font-size: 14px;
     }
 }
 
@@ -150,6 +163,13 @@
     .gallery-item, .puppies-item {
         width: 150px;
         height: 100px;
+    }
+
+    html[dir="ltr"] .faq-accordion-button-text {
+        font-size: 12px;
+    }
+    html[dir="ltr"] .faq-accordion-text {
+        font-size: 12px;
     }
 }
 

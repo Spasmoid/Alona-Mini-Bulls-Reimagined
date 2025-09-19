@@ -63,6 +63,8 @@ body {
     height: 80px;
     opacity: 0;
     transition: .1s;
+    overflow: hidden;
+    border-radius: 50%;
 }
 .header-logo.past {
     opacity: 1;
@@ -201,6 +203,8 @@ body {
     width: 150px;
     height: 150px;
     margin-top: -80px;
+    border-radius: 50%;
+    overflow: hidden;
 }
 
 .main-logo img {
@@ -274,7 +278,7 @@ body {
 
 /*------------------------------------------------------------------------------------*/
 .about {
-    max-width: 600px;
+    max-width: 610px;
     margin: 0 auto 100px auto;
 }
 
@@ -373,6 +377,10 @@ body {
     position: fixed;
     left: 50vw;
     top: 50svh;
+    transform: translate(-50%, -50%);
+}
+
+html[dir="rtl"] #lightbox {
     transform: translate(-55%, -50%);
 }
 
@@ -522,6 +530,10 @@ body {
     justify-content: end;
     column-gap: 60px;
     row-gap: 10px;
+    transform: translateX(0);
+}
+
+html[dir="rtl"] .advantages-items {
     transform: translateX(-30px);
 }
 
@@ -535,6 +547,7 @@ body {
 .advantages-item svg {
     width: 30px;
     height: 30px;
+    flex-shrink: 0;
 }
 
 .advantages-item svg path {
@@ -575,6 +588,10 @@ body {
     font-family: Assistant, sans-serif;
 }
 
+.faq-accordion-button.active > .faq-accordion-text {
+    max-width: 145px;
+}
+
 .faq-accordion-text {
     color: #dbdbdb;
     padding: 0 25px 0 25px;
@@ -584,8 +601,12 @@ body {
     background-color: transparent;
     font-size: 16px;
     margin-bottom: 7px;
+    text-align: justify;
 }
 
+.faq-accordion-text span {
+    font-weight: bold;
+}
 /*------------------------------------------------------------------------------------*/
 .footer {
     border-top: 1px solid #b6b6b614;
