@@ -95,7 +95,6 @@
                 for (let i = 0; i < faqAnswers.length; i++) {
                     faqAnswers[i].innerText = locales[lang].faq.answers[i];
                 }
-                console.log(faqAnswerHTML.innerHTML = locales[lang].faq.answer_html);
                 faqAnswerHTML.innerHTML = locales[lang].faq.answer_html;
 
                 for (let i = 0; i < footerLinksText.length; i++) {
@@ -156,7 +155,6 @@
                 dialog.showModal();
             });
         }
-
 
         dialog.addEventListener('click', (e) => {
             e.preventDefault();
