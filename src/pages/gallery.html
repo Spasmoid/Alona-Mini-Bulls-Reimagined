@@ -41,8 +41,8 @@
 
 <section class="page-gallery">
     <h1 class="page-gallery-heading" id="page-gallery-heading">הכלבים שלנו</h1>
-    <div class="page-gallery-items">
-        
+    <div class="page-gallery-items" id="page-gallery-items">
+
     </div>
 </section>
 
@@ -80,5 +80,65 @@
 </div>
 
 <script src="./../scripts/gallery.js"></script>
+<script type="module">
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/12.3.0/firebase-app.js";
+    import { getFirestore, collection, query, where, orderBy, onSnapshot } from "https://www.gstatic.com/firebasejs/12.3.0/firebase-firestore.js";
+
+    const firebaseConfig = {
+        apiKey: "AIzaSyB8ypa3dfkiYv6GSEtfAMDQmDgaXcsJ3jg",
+        authDomain: "alona-mini-bulls-22088.firebaseapp.com",
+        projectId: "alona-mini-bulls-22088",
+        storageBucket: "alona-mini-bulls-22088.firebasestorage.app",
+        messagingSenderId: "85062183272",
+        appId: "1:85062183272:web:56ced1d8e566de8601cedd",
+        measurementId: "G-9BTB6G9J2W"
+    };
+
+    const app = initializeApp(firebaseConfig);
+    const db  = getFirestore(app);
+
+    const grid      = document.getElementById('page-gallery-items');
+    const dialog    = document.getElementById('lightbox');
+    const dialogImg = document.getElementById('lightbox-img');
+
+    grid.addEventListener('click', (e) => {
+        const img = e.target.closest('.page-gallery-item img');
+        if (!img) return;
+        dialogImg.src = img.dataset.full || img.currentSrc || img.src;
+        dialogImg.alt = img.alt || '';
+        dialog.showModal();
+    });
+
+    const q = query(
+        collection(db, 'images'),
+        where('section', '==', 'gallery'),
+        orderBy('createdAt', 'desc')
+    );
+
+    onSnapshot(q, (snap) => {
+        grid.innerHTML = '';
+        if (snap.empty) {
+            return;
+        }
+        snap.forEach((doc) => {
+            const d = doc.data();
+            if (!d.url) return;
+
+            const el = document.createElement('div');
+            el.className = 'page-gallery-item';
+            el.innerHTML = `
+        <img
+          src="${d.url}"
+          alt="${(d.alt || '').replace(/"/g, '&quot;')}"
+          loading="lazy"
+          ${d.fullUrl ? `data-full="${d.fullUrl}"` : ''}
+        >
+      `;
+            grid.appendChild(el);
+        });
+    }, (err) => {
+        console.error(err);
+    });
+</script>
 </body>
 </html>
