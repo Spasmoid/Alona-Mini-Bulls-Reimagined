@@ -95,6 +95,12 @@ body {
     width: 47px;
 }
 
+.language-select option {
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+}
+
 .popup-menu-overlay {
     width: 100vw;
     height: 100vh;
